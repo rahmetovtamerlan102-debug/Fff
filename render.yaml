@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: infohunt-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+      - key: DEP_TOKEN
+      - key: DEP_BASE

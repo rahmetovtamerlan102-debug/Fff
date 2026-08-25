@@ -1,0 +1,5 @@
+python-telegram-bot==20.8
+requests==2.31.0
+flask==2.2.5
+python-dotenv==1.0.0
+pytz==2024.1
